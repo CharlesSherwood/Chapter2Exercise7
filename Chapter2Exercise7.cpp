@@ -1,20 +1,34 @@
-// Chapter2Exercise7.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*Fiel Name:Chapter2exercise7.cpp
+Progrmmer Name:Charles Sherwood
+Date:2/2025
+Requirements:This program will calulate the difference in
+the ocean levels if the ocen rises at 1.5 times per year for 5,7,10 years
+*/
 
+#include <iomanip>
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
+    double rise = 1.5;
+    double five = 5;
+    double seven = 7;
+    double ten = 10;
+
+
+    double five_years = rise * five;
+    double seven_years = rise * seven;
+    double ten_years = rise * ten;
+
+    cout << "In this program we will be looking at the difference of ocean levels if the rate was 1.5millimeters per year" << endl;
+
+    cout << "If the ocean rose at a rate of 1.5 millimeters five years it would be at " << five_years <<" millimeters"<< endl;
+    cout << "If the ocean rose at a rate of 1.5 millimeters for seven years it would be at " << seven_years << " millimeters" << endl;
+    cout << "If the ocean rose at a rate of 1.5 millimeters for ten years it would be at " << ten_years << " millimeters" << endl;
+    return 0;
+
+
+
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
