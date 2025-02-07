@@ -1,4 +1,4 @@
-/*Fiel Name:Chapter2exercise7.cpp
+/*File Name:Chapter2exercise7.cpp
 Progrmmer Name:Charles Sherwood
 Date:2/2025
 Requirements:This program will calulate the difference in
